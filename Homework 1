@@ -1,0 +1,14 @@
+Homework 1: Machine Learning
+Exercise 1
+We have:
+A: Predict after testing.
+B: Given
+0: negative
+1: positive
+P(B = 1) = 0.05 => P(B = 0) = 0.95
+P(A=1| B = 1) = 0.98
+P(A = 1 | B = 0) = 0.03
+P(B = 1 | H = 1)
+= [P(A = 1 | B = 1) ∗ P(A = 1)]/(P(B = 1))
+= [(0.05) ∗ (0.98)]/[(0.05) ∗ (0.98) + (0.95) ∗ (0.03)]
+= 0.623
